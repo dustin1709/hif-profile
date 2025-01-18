@@ -1,0 +1,13 @@
+.about-section {
+    display: grid;
+    grid-template-columns: 30% 2% 68%;
+}
+
+#about-us h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.about-section2 {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+}

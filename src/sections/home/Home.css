@@ -1,0 +1,31 @@
+.home-main {
+    width: 100%;
+}
+
+video {
+    width: 100%;
+    object-fit: cover;
+}
+
+.home-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(235, 232, 232);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    background-color: rgba(59, 41, 20, 0.317);
+}
+
+.home-overlay {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
