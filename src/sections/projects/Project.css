@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+
+#projects {
+    font-family: 'Dongle', sans-serif;
+    font-size: 150%;
+}
+
+#projects h1 {
+    font-family: "Dancing Script", serif;
+    font-optical-sizing: auto;
+    font-size: 350%;
+    color: rgb(122, 59, 59);
+}
+
+#projects h2 {
+    font-family: "Dancing Script", serif;
+    font-size: 150%;
+    padding-top: 5%;
+    color: rgb(132, 11, 11);
+    padding-bottom: 1.5%;
+}
+
+.childrenp {
+    display: grid;
+    grid-template-columns: 48% 2% 50%;
+}
+
+.children2 {
+    display: grid;
+    grid-template-columns: 64% 1% 35%;
+}
+
+#projects video {
+    width: 75%;
+}

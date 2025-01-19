@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+#education-consulting {
+    font-family: 'Dongle', sans-serif;
+}
+
+.edu-grid {
+    display: grid;
+    grid-template-columns: 45% 3% 52%;
+}
+
+@media screen and (max-width: 940px) {
+    .edu-grid {
+        grid-template-columns: 100%;
+    }
+}

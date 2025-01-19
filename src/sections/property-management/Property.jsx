@@ -85,7 +85,7 @@ function Property() {
             </div>
             <div className="pt-5 pb-7">
                 <h1 className="text-xl">More Photos</h1>
-                <motion.div initial={{ opacity: 0, y: 150 }} transition={{ duration: 1.75, ease: 'easeOut' }} whileInView={{ opacity: 1, x: 0 }} className="p-7">
+                <div className="p-5">
                     <Slider {...settings}>
                     {
                         hotelPhotos.map((photo) => {return (
@@ -97,8 +97,9 @@ function Property() {
                         )})
                     }
                     </Slider>
-                </motion.div>
+                </div>
             </div>
+            <div className="p-2 clear-both"></div>
             <h1 className="text-2xl">Advantages of hotel projects</h1>
             <p className="pt-5 pb-5">
                 Hotel projects offering short-term rental services have demonstrated impressive performance metrics, with occupancy rates surpassing 90% during peak seasons and remaining above 65% during off-peak periods. Through a combination of excellent guest services, strategic pricing, and effective marketing, these projects successfully capitalize on market demand and ensure consistent revenue streams throughout the year.
