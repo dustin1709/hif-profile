@@ -136,7 +136,7 @@ function About() {
         </div>
         <div className="p-7 about-section-finale">
             <div>
-                <motion.img initial={{ opacity: 0, x: -100 }} transition={{ duration: 0.75, ease: 'easeOut' }} whileInView={{ opacity: 1, x: 0 }} src="/about-pics/flag.png" alt="Greece Flag"/>
+                <motion.img initial={{ opacity: 0, x: -50 }} transition={{ duration: 0.75, ease: 'easeOut' }} whileInView={{ opacity: 1, x: 0 }} src="/about-pics/flag.png" alt="Greece Flag"/>
             </div>
             <div className="pb-7 children">
                 <div>    

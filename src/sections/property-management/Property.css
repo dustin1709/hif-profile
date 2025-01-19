@@ -1,0 +1,28 @@
+#property-management {
+    background-color: rgba(232, 176, 8, 0.779);
+    color: rgb(1, 1, 25);
+}
+
+#property-management h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    color: floralwhite;
+}
+
+
+.child {
+    display: grid;
+    grid-template-columns: 45% 55%;
+}
+.child1 {
+    display: grid;
+    grid-template-columns: 45% 55%;
+}
+
+
+@media screen and (max-width: 940px) {
+    .child, .child1 {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+}

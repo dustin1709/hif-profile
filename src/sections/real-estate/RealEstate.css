@@ -1,0 +1,66 @@
+#real-estate-development {
+    background-color: rgba(50, 145, 193, 0.576);
+    color: aliceblue;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 2%;
+    width: 100%;
+}
+
+#real-estate-development h1 {
+    font-size: 125%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.child1 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.child1 img {
+    width: 100%;
+}
+
+.child2 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 65% 35%;
+}
+
+.child2-child {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.child2-child img {
+    display: inline-block;
+    width: 15%;
+    vertical-align: bottom;
+    padding-left: 5px;
+}
+
+#real-estate-development video {
+    width: 100%;
+}
+
+.last-child {
+    display: grid;
+    grid-template-columns: 45% 3% 52%;
+}
+
+@media screen and (max-width: 940px) {
+    .child1 {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .child2 {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .last-child {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+}
