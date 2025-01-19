@@ -68,7 +68,7 @@ function Project() {
                                 <li>- Customizable Features: Flexibility in design elements allows buyers to personalize their spaces, making them truly feel like home.</li>
                                 <li>- Sustainability: Eco-friendly materials and energy-efficient systems align with the growing market trend toward green living.</li>
                             </ul>
-                            <p>Whether it’s for young professionals, growing families, or investors seeking high rental potential, our interiors are designed to exceed expectations and adapt to a range of lifestyles.</p>
+                            <p className="pb-5">Whether it’s for young professionals, growing families, or investors seeking high rental potential, our interiors are designed to exceed expectations and adapt to a range of lifestyles.</p>
                         </motion.div>
                     </div>
                     <div></div>

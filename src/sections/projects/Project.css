@@ -34,3 +34,9 @@
 #projects video {
     width: 75%;
 }
+
+@media screen and (max-width: 945px) {
+    .childrenp, .children2 {
+        grid-template-columns: 100%;
+    }
+}
