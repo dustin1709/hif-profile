@@ -6,7 +6,7 @@ import About from "./sections/about/About";
 
 export default function App() {
   return (
-    <div>
+    <div style={{width: '100%'}}>
     <Nav />
     <Home />
     <About />

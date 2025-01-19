@@ -11,3 +11,58 @@
     display: grid;
     grid-template-columns: 32% 32% 32%;
 }
+
+.about-section-finale {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 45% 35%;
+}
+
+.children {
+    display: grid;
+    grid-template-rows: 15% 85%;
+}
+
+.listItem {
+    display: inline-block;
+    margin-top: 1%;
+    padding: 1em;
+    width: 20em;
+}
+
+.textCount {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4em;
+    color: #C19C2B;
+    text-shadow: 1px 1px 1px #d2e4f8,
+    1px 2px 1px #32363b,
+    1px 3px 1px #d2e4f8,
+    1px 4px 1px #d2e4f8,
+    1px 5px 1px #d2e4f8,
+    1px 6px 1px #d2e4f8,
+    1px 7px 1px #d2e4f8,
+    1px 8px 1px #d2e4f8,
+    1px 9px 1px #d2e4f8,
+    1px 10px 1px #adcbee;
+}
+
+@media screen and (max-width: 940px) {
+    .about-section {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .about-section h1 {
+        padding-top: 2rem;
+    }
+    .about-section2 {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .about-section-finale {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+}
